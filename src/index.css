@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 96.5%;
+    --foreground: 0 0% 6.7%;
+    --card: 0 0% 96.5%;
+    --card-foreground: 0 0% 6.7%;
+    --popover: 0 0% 96.5%;
+    --popover-foreground: 0 0% 6.7%;
+    --primary: 0 0% 6.7%;
+    --primary-foreground: 0 0% 96.5%;
+    --secondary: 0 0% 92%;
+    --secondary-foreground: 0 0% 6.7%;
+    --muted: 0 0% 92%;
+    --muted-foreground: 0 0% 42.7%;
+    --accent: 263 78% 74%;
+    --accent-foreground: 0 0% 6.7%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 85%;
+    --input: 0 0% 85%;
+    --ring: 263 78% 74%;
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 0 0% 6.7%;
+    --foreground: 0 0% 96.5%;
+    --card: 0 0% 8%;
+    --card-foreground: 0 0% 96.5%;
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 96.5%;
+    --primary: 0 0% 96.5%;
+    --primary-foreground: 0 0% 6.7%;
+    --secondary: 0 0% 15%;
+    --secondary-foreground: 0 0% 96.5%;
+    --muted: 0 0% 15%;
+    --muted-foreground: 0 0% 60%;
+    --accent: 263 78% 74%;
+    --accent-foreground: 0 0% 6.7%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 263 78% 74%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(17, 17, 17, 0.2);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(17, 17, 17, 0.3);
+}
+
+/* Grain overlay */
+.grain-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+  opacity: 0.04;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+/* Typography utilities */
+.heading-xl {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  line-height: 0.95;
+}
+
+.heading-lg {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  line-height: 1.0;
+}
+
+.micro-label {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+}
+
+/* Hairline rules */
+.hairline {
+  background: rgba(17, 17, 17, 0.12);
+  height: 1px;
+}
+
+.hairline-vertical {
+  background: rgba(17, 17, 17, 0.12);
+  width: 1px;
+}
+
+/* Accent button */
+.btn-accent {
+  @apply inline-flex items-center justify-center px-6 py-3 rounded-full font-medium text-sm transition-all duration-300;
+  background-color: #B28AF0;
+  color: #111111;
+}
+
+.btn-accent:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(178, 138, 240, 0.4);
+}
+
+.btn-ghost {
+  @apply inline-flex items-center justify-center px-6 py-3 rounded-full font-medium text-sm transition-all duration-300 border;
+  border-color: rgba(17, 17, 17, 0.2);
+  color: #111111;
+}
+
+.btn-ghost:hover {
+  background: rgba(17, 17, 17, 0.05);
+}
+
+/* Section base */
+.section-pinned {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Image treatment */
+.img-monochrome {
+  filter: grayscale(100%) contrast(1.1);
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Animation utilities */
+.fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.stagger-1 { animation-delay: 0.1s; }
+.stagger-2 { animation-delay: 0.2s; }
+.stagger-3 { animation-delay: 0.3s; }
+.stagger-4 { animation-delay: 0.4s; }
