@@ -15,7 +15,7 @@ const Home = () => {
         <div className="w-full md:w-1/2 px-6 lg:px-20 py-12 flex flex-col justify-center order-2 md:order-1">
           <div className="animate-fade-up">
             <span className="micro-label text-[#6D6D6D] mb-4 block">
-              AK Bali Construction CONSTRUCTION
+              CV.Surya Sakti Konstruksi CONSTRUCTION
             </span>
             <h1 className="font-['Montserrat'] font-bold text-[clamp(40px,5vw,80px)] leading-[1.1] text-[#111] mb-6">
               BUILT WITH PRECISION
@@ -342,7 +342,7 @@ const TestimonialsSection = () => (
     <div className="max-w-4xl mx-auto text-center">
       <span className="micro-label text-[#6D6D6D] mb-12 block">TESTIMONIALS</span>
       <blockquote className="font-['Montserrat'] font-medium text-2xl md:text-4xl text-[#111] leading-tight mb-10 italic">
-        "AK Bali Construction transformed our vision into a home that exceeds every expectation. Their attention to detail and commitment to quality is unmatched."
+        "CV.Surya Sakti Konstruksi transformed our vision into a home that exceeds every expectation. Their attention to detail and commitment to quality is unmatched."
       </blockquote>
       <div className="flex flex-col items-center">
         <div className="w-14 h-14 rounded-full bg-[#111] text-white flex items-center justify-center font-bold mb-4">

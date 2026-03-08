@@ -133,7 +133,7 @@ const About = () => {
       image: '/images/team_founder.jpg',
       name: 'Michael Harrison',
       role: 'Founder & Principal',
-      bio: 'With over 20 years in construction and design, Michael founded AK Bali Construction with a vision to bridge the gap between architectural ambition and build reality.',
+      bio: 'With over 20 years in construction and design, Michael founded CV.Surya Sakti Konstruksi with a vision to bridge the gap between architectural ambition and build reality.',
     },
     {
       image: '/images/team_manager.jpg',
@@ -176,7 +176,7 @@ const About = () => {
               </h2>
               <div className="space-y-4 text-[#6D6D6D] leading-relaxed">
                 <p>
-                  AK Bali Construction Construction was founded in 2008 with a simple belief: 
+                  CV.Surya Sakti Konstruksi Construction was founded in 2008 with a simple belief: 
                   that the built environment should elevate daily life. We saw too many 
                   projects where design vision was compromised during construction, 
                   and we set out to change that.
@@ -197,7 +197,7 @@ const About = () => {
             <div className="aspect-[4/3] overflow-hidden">
               <img
                 src="/images/team_planning.jpg"
-                alt="AK Bali Construction team planning"
+                alt="CV.Surya Sakti Konstruksi team planning"
                 className="w-full h-full object-cover img-monochrome"
               />
             </div>
@@ -290,14 +290,14 @@ const About = () => {
             <div className="aspect-[4/3] overflow-hidden">
               <img
                 src="/images/poolside_terrace.jpg"
-                alt="AK Bali Construction quality"
+                alt="CV.Surya Sakti Konstruksi quality"
                 className="w-full h-full object-cover img-monochrome"
               />
             </div>
             <div>
-              <span className="micro-label text-[#6D6D6D] mb-4 block">WHY AK Bali Construction</span>
+              <span className="micro-label text-[#6D6D6D] mb-4 block">WHY CV.Surya Sakti Konstruksi</span>
               <h2 className="font-['Montserrat'] font-bold text-2xl lg:text-3xl text-[#111] mb-6">
-                The AK Bali Construction Difference
+                The CV.Surya Sakti Konstruksi Difference
               </h2>
               <div className="space-y-6">
                 {[

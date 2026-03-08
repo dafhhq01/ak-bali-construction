@@ -10,11 +10,11 @@ const Footer = () => {
           <div className="md:col-span-2">
             <Link to="/" className="inline-block mb-6">
               <span className="font-['Montserrat'] font-bold text-xl tracking-tight text-white">
-                AK Bali Construction
+                CV.Surya Sakti Konstruksi
               </span>
             </Link>
             <p className="text-white/60 text-sm leading-relaxed max-w-md mb-6">
-              Design-led construction for homes that feel as good as they look. 
+              Design-led construction for homes that feel as good as they look.
               Building precision into every project since 2008.
             </p>
             <div className="flex items-center gap-4">
@@ -37,7 +37,7 @@ const Footer = () => {
                 <Linkedin className="w-4 h-4" />
               </a>
               <a
-                href="mailto:hello@akbaliconstruction.com"
+                href="mailto:hello@suryasaktikonstruksi"
                 className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:bg-white/10 transition-colors"
                 aria-label="Email"
               >
@@ -73,9 +73,13 @@ const Footer = () => {
           <div>
             <h4 className="micro-label text-white/40 mb-6">Contact</h4>
             <ul className="space-y-3 text-sm text-white/70">
-              <li>hello@akbaliconstruction.com</li>
-              <li>+1 (555) 234-5678</li>
-              <li>1234 Design District<br />Bali, CA 94102</li>
+              <li>hello@suryasaktikonstruksi</li>
+              <li>+62 821-2343-8647</li>
+              <li>
+                <strong>Pesona Asri Estate</strong><br />
+                Blk. D No. 15, Antapani Tengah<br />
+                Kec. Antapani, Kota Bandung, Jawa Barat 40291
+              </li>
             </ul>
           </div>
         </div>
@@ -83,7 +87,7 @@ const Footer = () => {
         {/* Bottom bar */}
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-white/40 text-xs">
-            © {new Date().getFullYear()} AK Bali Construction. All rights reserved.
+            © {new Date().getFullYear()} CV.Surya Sakti Konstruksi. All rights reserved.
           </p>
           <p className="text-white/40 text-xs">
             Licensed & insured. All projects include a written warranty.

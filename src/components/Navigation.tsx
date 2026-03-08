@@ -49,7 +49,7 @@ const Navigation = () => {
           {/* Logo */}
           <Link to="/" className="relative z-50">
             <span className="font-['Montserrat'] font-bold text-lg tracking-tight text-[#111]">
-              AK Bali Construction
+              CV.Surya Sakti Konstruksi
             </span>
           </Link>
 

@@ -116,14 +116,14 @@ const Contact = () => {
     {
       icon: Phone,
       label: 'Phone',
-      value: '+1 (555) 234-5678',
-      href: 'tel:+15552345678',
+      value: '+62 821-2343-8647',
+      href: 'tel:+62 821-2343-8647',
     },
     {
       icon: Mail,
       label: 'Email',
-      value: 'hello@akbaliconstruction.com',
-      href: 'mailto:hello@akbaliconstruction.com',
+      value: 'hello@suryasaktikonstruksi',
+      href: 'mailto:hello@suryasaktikonstruksi',
     },
     {
       icon: MapPin,
@@ -238,7 +238,7 @@ const Contact = () => {
                             type="tel"
                             value={formData.phone}
                             onChange={(e) => handleChange('phone', e.target.value)}
-                            placeholder="(555) 123-4567"
+                            placeholder="+62 821-2343-8647"
                             className="border-[#111]/20 focus:border-[#B28AF0] focus:ring-[#B28AF0]"
                           />
                         </div>
@@ -367,11 +367,9 @@ const Contact = () => {
       {/* Map Section */}
       <div className="h-[400px] bg-[#E5E5E5] relative overflow-hidden">
         <iframe
-          // Link embed resmi yang menyertakan Pin Merah di lokasi yang dituju
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42118.75776881653!2d115.12366082024108!3d-8.674711871711565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd24700011f33f1%3A0x5280d8ea6a3e747f!2sAK%20Bali%20Construction%20%7C%20RENOVASI%20%7C%20BANGUN%20RUMAH%20%7C%20DESIGN%20%7C%20INTERIOR!5e0!3m2!1sen!2sid!4v1772446622340!5m2!1sen!2sid"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.702633920146!2d107.6674609!3d-6.9261046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e9c7771a6681%3A0x8b76fc5cfcc0af67!2sJasa%20renovasi%20rumah%20bandung%2C%20jasa%20arsitek%20bandung%2C%20jasa%20kontraktor%20bandung!5e0!3m2!1sen!2sid!4v1772939392577!5m2!1sen!2sid"
           width="100%"
-          height="100%"
-          // Style filter: Grayscale membuat map hitam putih, Contrast membuat jalan terlihat jelas
+          height="450"
           style={{
             border: 0,
             filter: 'grayscale(100%) contrast(1.2) opacity(0.9)'
@@ -379,18 +377,19 @@ const Contact = () => {
           allowFullScreen
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"
-          title="AK Bali Construction Location"
+          title="Lokasi CV. Surya Sakti Konstruksi"
         />
 
         {/* Label Lokasi di Atas Map - Muncul di pojok kiri bawah */}
         <div className="absolute bottom-6 left-6 bg-white p-5 shadow-2xl border border-[#111]/10 z-10 max-w-[280px]">
           <h4 className="font-['Montserrat'] font-bold text-[#111] mb-1">
-            AK Bali Construction
+            CV.Surya Sakti Konstruksi
           </h4>
           <p className="text-sm text-[#6D6D6D] leading-relaxed">
-            Jl. Raya Puputan No. 123<br />
-            Denpasar, Bali 80234<br />
-            Indonesia
+            <strong>Pesona Asri Estate</strong><br />
+            Blk. D No. 15, Antapani Tengah<br />
+            Kec. Antapani, Kota Bandung<br />
+            Jawa Barat 40291
           </p>
           <a
             // Link eksternal untuk navigasi (menggunakan link yang sama dengan iframe agar akurat)

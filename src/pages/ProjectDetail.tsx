@@ -27,7 +27,7 @@ Key features include custom walnut cabinetry with integrated appliances, a massi
       duration: '4 months',
       budget: '$150K - $200K',
       clientName: 'Sarah & David Mercer',
-      testimonial: 'AK Bali Construction exceeded our expectations at every turn. The attention to detail and quality of craftsmanship is remarkable. Our kitchen is now the centerpiece of our home.',
+      testimonial: 'CV.Surya Sakti Konstruksi exceeded our expectations at every turn. The attention to detail and quality of craftsmanship is remarkable. Our kitchen is now the centerpiece of our home.',
       features: [
         'Custom walnut cabinetry',
         'Carrara marble countertops',
@@ -51,7 +51,7 @@ Floor-to-ceiling windows were added to capture the views, and the interior palet
       duration: '8 months',
       budget: '$400K - $500K',
       clientName: 'Michael Chen',
-      testimonial: 'Working with AK Bali Construction was a dream. They understood my vision for a peaceful retreat and delivered beyond what I imagined possible.',
+      testimonial: 'Working with CV.Surya Sakti Konstruksi was a dream. They understood my vision for a peaceful retreat and delivered beyond what I imagined possible.',
       features: [
         'Floor-to-ceiling windows',
         'Custom millwork throughout',
@@ -75,7 +75,7 @@ The home features an open plan living area that flows seamlessly to outdoor spac
       duration: '14 months',
       budget: '$1.2M - $1.5M',
       clientName: 'The Rodriguez Family',
-      testimonial: 'Building our dream home with AK Bali Construction was an incredible journey. Their expertise and dedication made the process smooth and enjoyable.',
+      testimonial: 'Building our dream home with CV.Surya Sakti Konstruksi was an incredible journey. Their expertise and dedication made the process smooth and enjoyable.',
       features: [
         'Solar panel system',
         'Rainwater harvesting',
@@ -99,7 +99,7 @@ The centerpiece is a sculptural freestanding tub positioned to capture natural l
       duration: '3 months',
       budget: '$80K - $120K',
       clientName: 'Emma & James Wilson',
-      testimonial: 'Our bathroom feels like a five-star spa. AK Bali Construction thought of every detail to make this space both beautiful and functional.',
+      testimonial: 'Our bathroom feels like a five-star spa. CV.Surya Sakti Konstruksi thought of every detail to make this space both beautiful and functional.',
       features: [
         'Freestanding soaking tub',
         'Walk-in rain shower',
@@ -123,7 +123,7 @@ Custom ipe decking provides a warm, durable surface. Built-in planters with inte
       duration: '5 months',
       budget: '$200K - $250K',
       clientName: 'Lisa Park',
-      testimonial: 'My rooftop is now my favorite place in the city. AK Bali Construction created a true urban oasis that I enjoy every day.',
+      testimonial: 'My rooftop is now my favorite place in the city.  cCV.Surya Sakti Konstruksireated a true urban oasis that I enjoy every day.',
       features: [
         'Custom ipe decking',
         'Outdoor kitchen',
@@ -147,7 +147,7 @@ Original features like built-in cabinetry and period molding were carefully rest
       duration: '6 months',
       budget: '$300K - $350K',
       clientName: 'The Anderson Family',
-      testimonial: 'AK Bali Construction respected the history of our home while bringing it into the modern era. The staircase is a work of art.',
+      testimonial: 'CV.Surya Sakti Konstruksi respected the history of our home while bringing it into the modern era. The staircase is a work of art.',
       features: [
         'Floating staircase',
         'Restored original details',
@@ -171,7 +171,7 @@ Floor-to-ceiling bookcases provide ample storage and display space. A custom des
       duration: '2 months',
       budget: '$60K - $80K',
       clientName: 'Robert Taylor',
-      testimonial: 'My home office is now my favorite room. AK Bali Construction created a space that makes me excited to start work each day.',
+      testimonial: 'My home office is now my favorite room. CV.Surya Sakti Konstruksi created a space that makes me excited to start work each day.',
       features: [
         'Floor-to-ceiling bookcases',
         'Custom executive desk',
@@ -195,7 +195,7 @@ Custom built-ins provide storage for tableware and display space for art. The ma
       duration: '3 months',
       budget: '$100K - $150K',
       clientName: 'Jennifer Whitman',
-      testimonial: 'Our dining room is absolutely stunning. AK Bali Construction created a space where every meal feels special.',
+      testimonial: 'Our dining room is absolutely stunning. CV.Surya Sakti Konstruksi created a space where every meal feels special.',
       features: [
         'Panoramic window wall',
         'Custom lighting fixture',
